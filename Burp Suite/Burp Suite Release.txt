@@ -1,0 +1,122 @@
+Burp Suite Release
+
+https://portswigger.net/
+
+http://releases.portswigger.net/
+
+Burp Suite Release Notes
+
+Professional 2.0.04beta
+
+This release contains a number of bugfixes.
+
+Note: This is an incremental update to the Burp 2.0 beta release, and the same caveats apply. Please read the Burp 2.0 blog post in full before using this release.
+
+burpsuite_pro_v2.0.04beta.jar
+MD5: 4b0fc8b753a17ec9ca6912605a14c5e4 
+SHA256: 913675c255a9aa84b2d6c716cf10ad4a93fb326a13e70add99f58e53d1e31935
+
+1.7.37
+
+This release adds some powerful new Scanner checks based on James Kettle's talk at Black Hat today.
+
+For full details of this awesome new research, see our blog post on practical web cache poisoning.
+
+Burp Scanner is now able to detect two new vulnerabilities, "Web cache poisoning" and "Request URL override":
+
+burpsuite_pro_v1.7.37.jar
+MD5: 0350199495f1d026363980b581b4aeb9 
+SHA256: 490c1b2abfe7f85e4eb62659b2e4be2a8d894d095a69d91fe4ee129ef6f8e68b
+
+https://www.52pojie.cn/
+
+https://down.52pojie.cn/
+
+https://down.52pojie.cn/Tools/
+
+https://down.52pojie.cn/Tools/Network_Analyzer/
+
+https://down.52pojie.cn/Tools/Network_Analyzer/?C=M&O=D
+
+https://down.52pojie.cn/Tools/Network_Analyzer/Burp_Suite_Pro_v1.7.37_Loader_Keygen.zip
+
+[Other] Burp Suite Pro Loader&Keygen By surferxyz（更新新版，附带v1.7.37原版）
+
+https://www.52pojie.cn/thread-691448-1-1.html
+
+surferxyz发布在EXETOOLS，
+
+地址：
+
+https://forum.exetools.com/showpost.php?p=112008&postcount=83，
+
+原文如下：
+
+I made a loader/keygen that should work on future versions of burp suite pro, unless they specifically target it/change the license scheme.
+
+Download loader/keygen here: 
+
+http://www36.zippyshare.com/v/WRy3bGWf/file.html
+
+Works on 1.6.x up until the latest version 1.7.31 and maybe into the future ;-)
+
+My approach is a bit different than larry_lau, and my jar is not obfuscated so you can easily verify that it is safe :-)
+
+You still probably need to firewall off the program like Sakaroz said, if it really does do license callbacks. (I didnt look)
+
+surferxyz提供的Loader&Keygen程序没有混淆，可以完整看到burp的注册算法，并且loader的思路相当赞，注册机通杀1.6.x到最新的1.7.31版本，以后你有新版本也可以直接使用这个注册机，本帖中的最新Pro版本bin来自一个热心小伙伴提供，以后有更新我会重新打包上传爱盘，和WVS一样，如果你有也可以提供给我们更新到爱盘。
+
+程序使用很简单，可以直接打开burp-loader-keygen.jar即可，
+如果不行可以使用命令行启动：
+
+java -Xbootclasspath/p:burp-loader-keygen.jar -jar burpsuite_pro_v1.7.31.jar
+
+@Alyoyojie 在158楼贴了一个后门分析的帖子（https://0x00sec.org/t/malware-reversing-burpsuite-keygen/5167 ），有人利用这个补丁添加后门在传播，
+
+所以给出我这里发的原始文件Hash，大家下载自行对比：
+
+burp-loader-keygen.jar     MD5: A4A02E374695234412E2C66B0649B757
+
+源文件MD5官网查看：
+http://releases.portswigger.net
+
+百度网盘下载：
+
+链接: https://pan.baidu.com/s/1brjPKM7 密码: 9v4r
+
+爱盘下载：
+
+https://down.52pojie.cn/Tools/Network_Analyzer/
+
+https://www.52pojie.cn/
+
+https://down.52pojie.cn/
+
+https://down.52pojie.cn/Tools/
+
+https://down.52pojie.cn/Tools/Network_Analyzer/
+
+https://down.52pojie.cn/Tools/Network_Analyzer/?C=M&O=D
+
+https://down.52pojie.cn/Tools/Network_Analyzer/Burp_Suite_Pro_v1.7.37_Loader_Keygen.zip
+
+JDK版本在1.8.0_102之上，应该都不会有问题。
+
+如果你的环境中，需要很多Java版本，而且不好删，可以参考这种方法，一劳永逸。
+
+以Windows为例，可以进行如下操作：
+
+1.首先，从BurpSuite官网，下载Community版本的安装包。plain jar和其他的区别，仅仅是是否有可用的jre；
+2.安装后，找到安装目录，安装目录下应该有个burpsuite_community.jar；
+3.把Hmily提供的pro版的jar包，改名为burpsuite_community.jar，替换原来的文件；
+4.修改BurpSuiteCommunity.vmoptions文件为以下内容：
+-Xmx4096m
+-Xbootclasspath/p:burp-loader-keygen.jar
+5.从桌面/开始菜单/启动器等，启动Burpsuite。
+6.另外启动一个Keygen，按照那个帖子操作即可。
+
+Linux、macOS同理，位置和文件名略有不同。
+
+jdk1.8.102-jdk1.8.181之间都是可以
+
+https://www36.zippyshare.com/v/WRy3bGWf/file.html
